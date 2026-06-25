@@ -1,0 +1,95 @@
+.opening-balances-container {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.balances-section {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border-left: 4px solid #4CAF50;
+}
+
+.balance-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.balance-form input,
+.balance-form select,
+.balance-form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.balance-form button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.balance-form button:hover {
+  background-color: #45a049;
+}
+
+.balance-report {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border-radius: 4px;
+  border: 1px solid #4CAF50;
+}
+
+.balance-report table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.balance-report td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.balance-report tr:first-child td {
+  border-top: none;
+}
+
+.balance-report tr td:first-child {
+  font-weight: 500;
+  color: #555;
+}
+
+.balance-report tr td:last-child {
+  text-align: right;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background-color: #f0f0f0;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+  background-color: #f9f9f9;
+}

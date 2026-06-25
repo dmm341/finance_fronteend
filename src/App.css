@@ -1,0 +1,49 @@
+.app {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 28px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav button.active {
+  background-color: white;
+  color: #667eea;
+}
+
+.app-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 10px;
+}

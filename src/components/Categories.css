@@ -1,0 +1,91 @@
+.categories-container {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.category-form input,
+.category-form select,
+.category-form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.category-form button {
+  background-color: #FF9800;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.category-form button:hover {
+  background-color: #e68900;
+}
+
+.category-form button[type="button"] {
+  background-color: #f44336;
+}
+
+.category-form button[type="button"]:hover {
+  background-color: #da190b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background-color: #f0f0f0;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn-edit {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #0b7dda;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #da190b;
+}
