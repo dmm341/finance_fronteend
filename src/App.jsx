@@ -5,7 +5,7 @@ import { Categories } from './components/Categories';
 import { Transactions } from './components/Transactions';
 import { OpeningBalances } from './components/OpeningBalances';
 import { Analysis } from './components/Analysis';
-import { Login } from './components/Login';
+
 import './App.css';
 function App() {
   const [activeTab, setActiveTab] = useState('transactions');
@@ -50,12 +50,12 @@ function App() {
           >
             Analysis
           </button>
-          <button
+          {/* <button
             className={activeTab === 'login' ? 'active' : ''}
             onClick={() => setActiveTab('login')}
           >
             Login
-          </button>
+          </button> */}
         </nav>
       </header>
 
